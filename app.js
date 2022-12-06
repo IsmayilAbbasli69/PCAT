@@ -40,7 +40,7 @@ app.get('/contact', pageControllers.getContactpage);
 
 app.post('/photo', photoControllers.createPhoto);
 
-app.get('/photo/update/:id', pageControllers.getPhototpage);
+app.get('/photo/update/:id', pageControllers.getPhotopage);
 
 app.put('/photo/:id', photoControllers.updatePhoto);
 
